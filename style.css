@@ -1,0 +1,121 @@
+html{
+  height: 100%;
+}
+@font-face{
+  font-family: sans;
+  src: url(fonts/product-sans.ttf);
+}
+*{
+  font-family: sans;
+}
+body {
+    font-size: 15pt;
+    background-image: linear-gradient(to top, #B059BB, #5059C7);
+}
+.container{
+  margin: auto;
+  display: block;
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 400px;
+  width: 700px;
+  padding: 20px;
+}
+.left-container{
+  float: left;
+  padding: 8px;
+}
+.right-container{
+  float: right;
+  padding: 8px;
+}
+.avatar{
+  height: 300px;
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.box-container{
+  display: flex;
+  background-color: #E6E6E6;
+  padding: 8px 10px 8px 10px;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+input{
+  margin-left: 5px;
+  background-color: transparent;
+  outline: none;
+  border: 0px solid #ffffff;
+  width: 140px;
+  height: 20px;
+  border-radius: 5px;
+}
+.icon{
+  height: 20px;
+  width: 20px;
+}
+button{
+  padding: 6px 8px 6px 8px;
+  width: 180px;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: 0px solid #ffffff;
+  color: #ffffff;
+  background-color: #6FB555;
+}
+.small-text{
+  font-size: 11px;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: grey;
+}
+.google{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background-color: #E11818A1;
+  border-radius: 3px;
+  display: flex;
+  padding: 4px;
+  color: #ffffff;
+}
+.facebook{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin-top: 10px;
+  background-color: #008BFF;
+  border-radius: 3px;
+  display: flex;
+  padding: 4px;
+  color: #ffffff;
+}
+@media only screen and (max-width: 750px){
+  htnl{
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    width: 95%;
+  }
+  .container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  .avatar{
+    height: 0px;
+    width: 0px;
+  }
+  input{
+    width: 60%;
+  }
+  .left-container{
+    height: 0px;
+  }
+  .right-container{
+    float: none;
+  }
+}
